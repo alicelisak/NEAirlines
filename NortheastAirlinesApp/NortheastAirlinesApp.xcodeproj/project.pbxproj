@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5BF5E9E2C3EFAA000D4C282 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF5E9D2C3EFAA000D4C282 /* SignInViewModel.swift */; };
+		C5BF5EA02C3EFAB100D4C282 /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF5E9F2C3EFAB100D4C282 /* CreateAccountViewModel.swift */; };
+		C5BF5EA42C3EFBC500D4C282 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF5EA32C3EFBC500D4C282 /* HomeViewModel.swift */; };
+		C5BF5EA62C3EFBD900D4C282 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF5EA52C3EFBD900D4C282 /* ProfileViewModel.swift */; };
+		C5BF5EA82C3EFF8400D4C282 /* NEButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF5EA72C3EFF8400D4C282 /* NEButton.swift */; };
+		C5BF5EAA2C40082300D4C282 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF5EA92C40082300D4C282 /* User.swift */; };
+		C5BF5EAC2C400DD200D4C282 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF5EAB2C400DD200D4C282 /* Extensions.swift */; };
+		C5BF5EB42C57EB5600D4C282 /* MyFlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF5EB32C57EB5600D4C282 /* MyFlights.swift */; };
+		C5BF5EB62C58209400D4C282 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF5EB52C58209400D4C282 /* SearchResults.swift */; };
+		C5BF5EB82C59361800D4C282 /* SearchResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF5EB72C59361800D4C282 /* SearchResultsViewModel.swift */; };
+		C5BF5EBA2C59609900D4C282 /* FlightOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF5EB92C59609900D4C282 /* FlightOptionView.swift */; };
+		C5D004BB2C122FD000C0B4CA /* NortheastAirlinesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D004BA2C122FD000C0B4CA /* NortheastAirlinesAppApp.swift */; };
+		C5D004BD2C122FD000C0B4CA /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D004BC2C122FD000C0B4CA /* SignIn.swift */; };
+		C5D004BF2C122FD200C0B4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D004BE2C122FD200C0B4CA /* Assets.xcassets */; };
+		C5D004C32C122FD200C0B4CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D004C22C122FD200C0B4CA /* Preview Assets.xcassets */; };
+		C5D004CD2C122FD200C0B4CA /* NortheastAirlinesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D004CC2C122FD200C0B4CA /* NortheastAirlinesAppTests.swift */; };
+		C5D004D72C122FD200C0B4CA /* NortheastAirlinesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D004D62C122FD200C0B4CA /* NortheastAirlinesAppUITests.swift */; };
+		C5D004D92C122FD200C0B4CA /* NortheastAirlinesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D004D82C122FD200C0B4CA /* NortheastAirlinesAppUITestsLaunchTests.swift */; };
+		C5D004E62C124C6300C0B4CA /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D004E52C124C6300C0B4CA /* CreateAccount.swift */; };
+		C5D004E82C18C4BD00C0B4CA /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5D004E72C18C4BD00C0B4CA /* Inter-ExtraBold.ttf */; };
+		C5D004EB2C1A0BBB00C0B4CA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C5D004EA2C1A0BBB00C0B4CA /* FirebaseAuth */; };
+		C5D004ED2C1A0BBB00C0B4CA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C5D004EC2C1A0BBB00C0B4CA /* FirebaseFirestore */; };
+		C5D004EF2C1A0C6400C0B4CA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5D004EE2C1A0C6400C0B4CA /* GoogleService-Info.plist */; };
+		C5D004F12C1A379300C0B4CA /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D004F02C1A379300C0B4CA /* ListView.swift */; };
+		C5D004F32C1A37AF00C0B4CA /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D004F22C1A37AF00C0B4CA /* Dog.swift */; };
+		C5D004F72C21B0DF00C0B4CA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D004F62C21B0DF00C0B4CA /* DataManager.swift */; };
+		C5D004FB2C21BAD100C0B4CA /* NewDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D004FA2C21BAD100C0B4CA /* NewDogView.swift */; };
+		C5D004FD2C21FCDF00C0B4CA /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D004FC2C21FCDF00C0B4CA /* TabData.swift */; };
+		C5D004FF2C21FECA00C0B4CA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D004FE2C21FECA00C0B4CA /* Home.swift */; };
+		C5D005012C21FFF200C0B4CA /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D005002C21FFF200C0B4CA /* CustomTabBar.swift */; };
+		C5D005052C2C89CE00C0B4CA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D005042C2C89CE00C0B4CA /* Profile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5D004C92C122FD200C0B4CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D004AF2C122FCF00C0B4CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D004B62C122FD000C0B4CA;
+			remoteInfo = NortheastAirlinesApp;
+		};
+		C5D004D32C122FD200C0B4CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D004AF2C122FCF00C0B4CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D004B62C122FD000C0B4CA;
+			remoteInfo = NortheastAirlinesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5BF5E9D2C3EFAA000D4C282 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		C5BF5E9F2C3EFAB100D4C282 /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
+		C5BF5EA32C3EFBC500D4C282 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C5BF5EA52C3EFBD900D4C282 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		C5BF5EA72C3EFF8400D4C282 /* NEButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEButton.swift; sourceTree = "<group>"; };
+		C5BF5EA92C40082300D4C282 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C5BF5EAB2C400DD200D4C282 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C5BF5EB32C57EB5600D4C282 /* MyFlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlights.swift; sourceTree = "<group>"; };
+		C5BF5EB52C58209400D4C282 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		C5BF5EB72C59361800D4C282 /* SearchResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewModel.swift; sourceTree = "<group>"; };
+		C5BF5EB92C59609900D4C282 /* FlightOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightOptionView.swift; sourceTree = "<group>"; };
+		C5D004B72C122FD000C0B4CA /* NortheastAirlinesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NortheastAirlinesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D004BA2C122FD000C0B4CA /* NortheastAirlinesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NortheastAirlinesAppApp.swift; sourceTree = "<group>"; };
+		C5D004BC2C122FD000C0B4CA /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		C5D004BE2C122FD200C0B4CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5D004C02C122FD200C0B4CA /* NortheastAirlinesApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NortheastAirlinesApp.entitlements; sourceTree = "<group>"; };
+		C5D004C22C122FD200C0B4CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5D004C82C122FD200C0B4CA /* NortheastAirlinesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NortheastAirlinesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D004CC2C122FD200C0B4CA /* NortheastAirlinesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NortheastAirlinesAppTests.swift; sourceTree = "<group>"; };
+		C5D004D22C122FD200C0B4CA /* NortheastAirlinesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NortheastAirlinesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D004D62C122FD200C0B4CA /* NortheastAirlinesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NortheastAirlinesAppUITests.swift; sourceTree = "<group>"; };
+		C5D004D82C122FD200C0B4CA /* NortheastAirlinesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NortheastAirlinesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C5D004E52C124C6300C0B4CA /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+		C5D004E72C18C4BD00C0B4CA /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C5D004EE2C1A0C6400C0B4CA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5D004F02C1A379300C0B4CA /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		C5D004F22C1A37AF00C0B4CA /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		C5D004F62C21B0DF00C0B4CA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C5D004FA2C21BAD100C0B4CA /* NewDogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDogView.swift; sourceTree = "<group>"; };
+		C5D004FC2C21FCDF00C0B4CA /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		C5D004FE2C21FECA00C0B4CA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C5D005002C21FFF200C0B4CA /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		C5D005042C2C89CE00C0B4CA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5D004B42C122FD000C0B4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D004EB2C1A0BBB00C0B4CA /* FirebaseAuth in Frameworks */,
+				C5D004ED2C1A0BBB00C0B4CA /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D004C52C122FD200C0B4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D004CF2C122FD200C0B4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5BF5E982C3EF6DC00D4C282 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5D004BC2C122FD000C0B4CA /* SignIn.swift */,
+				C5D004E52C124C6300C0B4CA /* CreateAccount.swift */,
+				C5D004FE2C21FECA00C0B4CA /* Home.swift */,
+				C5BF5EB52C58209400D4C282 /* SearchResults.swift */,
+				C5BF5EB92C59609900D4C282 /* FlightOptionView.swift */,
+				C5BF5EB32C57EB5600D4C282 /* MyFlights.swift */,
+				C5D005042C2C89CE00C0B4CA /* Profile.swift */,
+				C5D005002C21FFF200C0B4CA /* CustomTabBar.swift */,
+				C5BF5EA72C3EFF8400D4C282 /* NEButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C5BF5E9A2C3EF72A00D4C282 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5D004FC2C21FCDF00C0B4CA /* TabData.swift */,
+				C5BF5EA92C40082300D4C282 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5BF5E9B2C3EF74000D4C282 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C5BF5EAB2C400DD200D4C282 /* Extensions.swift */,
+				C5D004E72C18C4BD00C0B4CA /* Inter-ExtraBold.ttf */,
+				C5D004EE2C1A0C6400C0B4CA /* GoogleService-Info.plist */,
+				C5D004BE2C122FD200C0B4CA /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C5BF5E9C2C3EF80A00D4C282 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C5BF5E9D2C3EFAA000D4C282 /* SignInViewModel.swift */,
+				C5BF5E9F2C3EFAB100D4C282 /* CreateAccountViewModel.swift */,
+				C5BF5EA32C3EFBC500D4C282 /* HomeViewModel.swift */,
+				C5BF5EB72C59361800D4C282 /* SearchResultsViewModel.swift */,
+				C5BF5EA52C3EFBD900D4C282 /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C5D004AE2C122FCF00C0B4CA = {
+			isa = PBXGroup;
+			children = (
+				C5D004B92C122FD000C0B4CA /* NortheastAirlinesApp */,
+				C5D004CB2C122FD200C0B4CA /* NortheastAirlinesAppTests */,
+				C5D004D52C122FD200C0B4CA /* NortheastAirlinesAppUITests */,
+				C5D004B82C122FD000C0B4CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D004B82C122FD000C0B4CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D004B72C122FD000C0B4CA /* NortheastAirlinesApp.app */,
+				C5D004C82C122FD200C0B4CA /* NortheastAirlinesAppTests.xctest */,
+				C5D004D22C122FD200C0B4CA /* NortheastAirlinesAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5D004B92C122FD000C0B4CA /* NortheastAirlinesApp */ = {
+			isa = PBXGroup;
+			children = (
+				C5D004BA2C122FD000C0B4CA /* NortheastAirlinesAppApp.swift */,
+				C5D004C02C122FD200C0B4CA /* NortheastAirlinesApp.entitlements */,
+				C5BF5E982C3EF6DC00D4C282 /* Views */,
+				C5BF5E9A2C3EF72A00D4C282 /* Models */,
+				C5BF5E9C2C3EF80A00D4C282 /* ViewModels */,
+				C5BF5E9B2C3EF74000D4C282 /* Other */,
+				C5D004F62C21B0DF00C0B4CA /* DataManager.swift */,
+				C5D004FA2C21BAD100C0B4CA /* NewDogView.swift */,
+				C5D004F02C1A379300C0B4CA /* ListView.swift */,
+				C5D004F22C1A37AF00C0B4CA /* Dog.swift */,
+				C5D004C12C122FD200C0B4CA /* Preview Content */,
+			);
+			path = NortheastAirlinesApp;
+			sourceTree = "<group>";
+		};
+		C5D004C12C122FD200C0B4CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C5D004C22C122FD200C0B4CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5D004CB2C122FD200C0B4CA /* NortheastAirlinesAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5D004CC2C122FD200C0B4CA /* NortheastAirlinesAppTests.swift */,
+			);
+			path = NortheastAirlinesAppTests;
+			sourceTree = "<group>";
+		};
+		C5D004D52C122FD200C0B4CA /* NortheastAirlinesAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5D004D62C122FD200C0B4CA /* NortheastAirlinesAppUITests.swift */,
+				C5D004D82C122FD200C0B4CA /* NortheastAirlinesAppUITestsLaunchTests.swift */,
+			);
+			path = NortheastAirlinesAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5D004B62C122FD000C0B4CA /* NortheastAirlinesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D004DC2C122FD200C0B4CA /* Build configuration list for PBXNativeTarget "NortheastAirlinesApp" */;
+			buildPhases = (
+				C5D004B32C122FD000C0B4CA /* Sources */,
+				C5D004B42C122FD000C0B4CA /* Frameworks */,
+				C5D004B52C122FD000C0B4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NortheastAirlinesApp;
+			packageProductDependencies = (
+				C5D004EA2C1A0BBB00C0B4CA /* FirebaseAuth */,
+				C5D004EC2C1A0BBB00C0B4CA /* FirebaseFirestore */,
+			);
+			productName = NortheastAirlinesApp;
+			productReference = C5D004B72C122FD000C0B4CA /* NortheastAirlinesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5D004C72C122FD200C0B4CA /* NortheastAirlinesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D004DF2C122FD200C0B4CA /* Build configuration list for PBXNativeTarget "NortheastAirlinesAppTests" */;
+			buildPhases = (
+				C5D004C42C122FD200C0B4CA /* Sources */,
+				C5D004C52C122FD200C0B4CA /* Frameworks */,
+				C5D004C62C122FD200C0B4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D004CA2C122FD200C0B4CA /* PBXTargetDependency */,
+			);
+			name = NortheastAirlinesAppTests;
+			productName = NortheastAirlinesAppTests;
+			productReference = C5D004C82C122FD200C0B4CA /* NortheastAirlinesAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5D004D12C122FD200C0B4CA /* NortheastAirlinesAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D004E22C122FD200C0B4CA /* Build configuration list for PBXNativeTarget "NortheastAirlinesAppUITests" */;
+			buildPhases = (
+				C5D004CE2C122FD200C0B4CA /* Sources */,
+				C5D004CF2C122FD200C0B4CA /* Frameworks */,
+				C5D004D02C122FD200C0B4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D004D42C122FD200C0B4CA /* PBXTargetDependency */,
+			);
+			name = NortheastAirlinesAppUITests;
+			productName = NortheastAirlinesAppUITests;
+			productReference = C5D004D22C122FD200C0B4CA /* NortheastAirlinesAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5D004AF2C122FCF00C0B4CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C5D004B62C122FD000C0B4CA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C5D004C72C122FD200C0B4CA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C5D004B62C122FD000C0B4CA;
+					};
+					C5D004D12C122FD200C0B4CA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C5D004B62C122FD000C0B4CA;
+					};
+				};
+			};
+			buildConfigurationList = C5D004B22C122FCF00C0B4CA /* Build configuration list for PBXProject "NortheastAirlinesApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5D004AE2C122FCF00C0B4CA;
+			packageReferences = (
+				C5D004E92C1A0BBB00C0B4CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C5D004B82C122FD000C0B4CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5D004B62C122FD000C0B4CA /* NortheastAirlinesApp */,
+				C5D004C72C122FD200C0B4CA /* NortheastAirlinesAppTests */,
+				C5D004D12C122FD200C0B4CA /* NortheastAirlinesAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5D004B52C122FD000C0B4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D004C32C122FD200C0B4CA /* Preview Assets.xcassets in Resources */,
+				C5D004EF2C1A0C6400C0B4CA /* GoogleService-Info.plist in Resources */,
+				C5D004BF2C122FD200C0B4CA /* Assets.xcassets in Resources */,
+				C5D004E82C18C4BD00C0B4CA /* Inter-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D004C62C122FD200C0B4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D004D02C122FD200C0B4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5D004B32C122FD000C0B4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D004F12C1A379300C0B4CA /* ListView.swift in Sources */,
+				C5D005052C2C89CE00C0B4CA /* Profile.swift in Sources */,
+				C5BF5EB62C58209400D4C282 /* SearchResults.swift in Sources */,
+				C5BF5EBA2C59609900D4C282 /* FlightOptionView.swift in Sources */,
+				C5BF5EA42C3EFBC500D4C282 /* HomeViewModel.swift in Sources */,
+				C5D004FD2C21FCDF00C0B4CA /* TabData.swift in Sources */,
+				C5BF5E9E2C3EFAA000D4C282 /* SignInViewModel.swift in Sources */,
+				C5D004F72C21B0DF00C0B4CA /* DataManager.swift in Sources */,
+				C5D004BD2C122FD000C0B4CA /* SignIn.swift in Sources */,
+				C5D004FF2C21FECA00C0B4CA /* Home.swift in Sources */,
+				C5D004E62C124C6300C0B4CA /* CreateAccount.swift in Sources */,
+				C5D005012C21FFF200C0B4CA /* CustomTabBar.swift in Sources */,
+				C5BF5EB82C59361800D4C282 /* SearchResultsViewModel.swift in Sources */,
+				C5BF5EB42C57EB5600D4C282 /* MyFlights.swift in Sources */,
+				C5BF5EA02C3EFAB100D4C282 /* CreateAccountViewModel.swift in Sources */,
+				C5BF5EA62C3EFBD900D4C282 /* ProfileViewModel.swift in Sources */,
+				C5BF5EA82C3EFF8400D4C282 /* NEButton.swift in Sources */,
+				C5BF5EAC2C400DD200D4C282 /* Extensions.swift in Sources */,
+				C5D004FB2C21BAD100C0B4CA /* NewDogView.swift in Sources */,
+				C5D004BB2C122FD000C0B4CA /* NortheastAirlinesAppApp.swift in Sources */,
+				C5D004F32C1A37AF00C0B4CA /* Dog.swift in Sources */,
+				C5BF5EAA2C40082300D4C282 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D004C42C122FD200C0B4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D004CD2C122FD200C0B4CA /* NortheastAirlinesAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D004CE2C122FD200C0B4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D004D92C122FD200C0B4CA /* NortheastAirlinesAppUITestsLaunchTests.swift in Sources */,
+				C5D004D72C122FD200C0B4CA /* NortheastAirlinesAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5D004CA2C122FD200C0B4CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D004B62C122FD000C0B4CA /* NortheastAirlinesApp */;
+			targetProxy = C5D004C92C122FD200C0B4CA /* PBXContainerItemProxy */;
+		};
+		C5D004D42C122FD200C0B4CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D004B62C122FD000C0B4CA /* NortheastAirlinesApp */;
+			targetProxy = C5D004D32C122FD200C0B4CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5D004DA2C122FD200C0B4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5D004DB2C122FD200C0B4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C5D004DD2C122FD200C0B4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NortheastAirlinesApp/NortheastAirlinesApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NortheastAirlinesApp/Preview Content\"";
+				DEVELOPMENT_TEAM = F75A7V6YN3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-example.alice.NortheastAirlinesApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C5D004DE2C122FD200C0B4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NortheastAirlinesApp/NortheastAirlinesApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NortheastAirlinesApp/Preview Content\"";
+				DEVELOPMENT_TEAM = F75A7V6YN3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-example.alice.NortheastAirlinesApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C5D004E02C122FD200C0B4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F75A7V6YN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-example.alice.NortheastAirlinesAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NortheastAirlinesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NortheastAirlinesApp";
+			};
+			name = Debug;
+		};
+		C5D004E12C122FD200C0B4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F75A7V6YN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-example.alice.NortheastAirlinesAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NortheastAirlinesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NortheastAirlinesApp";
+			};
+			name = Release;
+		};
+		C5D004E32C122FD200C0B4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F75A7V6YN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-example.alice.NortheastAirlinesAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NortheastAirlinesApp;
+			};
+			name = Debug;
+		};
+		C5D004E42C122FD200C0B4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F75A7V6YN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-example.alice.NortheastAirlinesAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NortheastAirlinesApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5D004B22C122FCF00C0B4CA /* Build configuration list for PBXProject "NortheastAirlinesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D004DA2C122FD200C0B4CA /* Debug */,
+				C5D004DB2C122FD200C0B4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D004DC2C122FD200C0B4CA /* Build configuration list for PBXNativeTarget "NortheastAirlinesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D004DD2C122FD200C0B4CA /* Debug */,
+				C5D004DE2C122FD200C0B4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D004DF2C122FD200C0B4CA /* Build configuration list for PBXNativeTarget "NortheastAirlinesAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D004E02C122FD200C0B4CA /* Debug */,
+				C5D004E12C122FD200C0B4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D004E22C122FD200C0B4CA /* Build configuration list for PBXNativeTarget "NortheastAirlinesAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D004E32C122FD200C0B4CA /* Debug */,
+				C5D004E42C122FD200C0B4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C5D004E92C1A0BBB00C0B4CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C5D004EA2C1A0BBB00C0B4CA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5D004E92C1A0BBB00C0B4CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C5D004EC2C1A0BBB00C0B4CA /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5D004E92C1A0BBB00C0B4CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C5D004AF2C122FCF00C0B4CA /* Project object */;
+}
