@@ -1,4 +1,4 @@
-# Mobile Flight Booking App
+# Noreasth Airlines Mobile App
 
 This repository contains the code for a flight booking application designed for mobile platforms. The app allows users to search for flights, manage their profile, view upcoming flights, and sign in or create an account.
 
@@ -23,13 +23,16 @@ The MyFlights view lists all upcoming flights for the user. It provides details 
 ## ViewModel
 Each view is backed by a corresponding ViewModel that handles the business logic, such as data validation, sorting options, and managing state changes.
 
+## App Images
 <div align="center">
-<img width="215" alt="Screenshot 2024-07-29 at 9 35 50 AM" src="https://github.com/user-attachments/assets/3fad3998-509c-4fa4-aa25-a2ab372992e4">
 <img width="214" alt="Screenshot 2024-07-09 at 3 08 48 PM" src="https://github.com/user-attachments/assets/4d15b39e-1494-487e-8844-f56b9b97cde6">
+<img width="291" alt="Screenshot 2024-08-06 at 11 16 49 AM" src="https://github.com/user-attachments/assets/791d75e3-fc93-498a-9514-49ee1f03d512">
+<img width="314" alt="Screenshot 2024-08-06 at 11 16 53 AM" src="https://github.com/user-attachments/assets/34c79e6b-4bfa-4441-bb73-7616d017a1d4">
+<img width="317" alt="Screenshot 2024-08-06 at 11 16 58 AM" src="https://github.com/user-attachments/assets/c476eb51-368e-4552-90e0-452da8ea8d9d">
 
 
 
-## Figma Prototype
+## Figma Prototype Link
  <a href="https://www.figma.com/design/818d6iMFGA5kpQVUCzEIf3/NE-Airlines-Prototype?node-id=0-1&t=ZXH9KApcBt91shcY-1 ">
 
  
